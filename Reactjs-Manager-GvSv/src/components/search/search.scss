@@ -1,0 +1,33 @@
+.formSeachTeacher {
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  input {
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 0;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 10px;
+    height: 27px;
+  }
+  input:focus {
+    outline: none;
+  }
+  .buttonSearch {
+    margin-right: 10px;
+    border: 0;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .buttonSearch:hover {
+    background-color: rgb(20, 173, 109);
+    color: white;
+  }
+}

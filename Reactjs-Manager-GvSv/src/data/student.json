@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Nguyễn Văn A",
+    "birthday": "2000-01-01",
+    "khoa": 1,
+    "lop": 1
+  },
+  {
+    "id": 2,
+    "name": "Nguyễn Văn B",
+    "birthday": "2000-01-01",
+    "khoa": 1,
+    "lop": 2
+  },
+  {
+    "id": 3,
+    "name": "Nguyễn Văn C",
+    "birthday": "2000-01-01",
+    "khoa": 1,
+    "lop": 3
+  },
+  {
+    "id": 4,
+    "name": "Nguyễn Văn D",
+    "birthday": "2000-01-01",
+    "khoa": 1,
+    "lop": 2
+  },
+  {
+    "id": 5,
+    "name": "Nguyễn Văn E",
+    "birthday": "2000-01-01",
+    "khoa": 3,
+    "lop": 4
+  },
+  {
+    "id": 6,
+    "name": "Nguyễn Văn F",
+    "birthday": "2000-01-01",
+    "khoa": 3,
+    "lop": 4
+  },
+  {
+    "id": 7,
+    "name": "Nguyễn Văn F",
+    "birthday": "2000-01-01",
+    "khoa": 2,
+    "lop": 5
+  },
+  {
+    "id": 8,
+    "name": "Nguyễn Văn G", 
+    "birthday": "2000-01-01",
+    "khoa": 3,
+    "lop": 4
+  }
+]

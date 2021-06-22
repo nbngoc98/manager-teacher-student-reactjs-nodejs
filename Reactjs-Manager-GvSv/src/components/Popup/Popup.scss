@@ -1,0 +1,109 @@
+.popup-box {
+  width: 50%;
+  float: right;
+}
+
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  background: #ffffff;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: 20px;
+  float: right;
+  margin-right: 10px;
+  &:hover {
+    background-color: red;
+    color: white;
+  }
+}
+.formID {
+  margin-left: 10px;
+}
+.formInput {
+  width: 100%;
+}
+.widthrow {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+}
+
+.formInput .label-input {
+  display: flex;
+  margin-bottom: 12px;
+}
+.formInput .label-input .title {
+  width: 30%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.formInput .label-input .input {
+  width: 70%;
+  .text-error-form{
+    color: red;
+    font-size: 12px;
+  }
+}
+.formInput .label-input .input input {
+  width: 100%;
+  border: 0;
+  padding: 8px;
+  border-radius: 3px;
+}
+.formInput .label-input .input input:focus {
+  outline: none;
+}
+.buttonSubmitForm {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border: 0;
+  border-radius: 2px;
+  float: right;
+  margin-right: 10px;
+}
+.buttonSubmitForm:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.optionSelect {
+  width: 100%;
+  border: 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+.optionSelect:focus {
+  outline: none;
+}
+.formInput .label-input .optionSelect {
+  width: 100%;
+  border: 0;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.buttonDelete {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border: 0;
+  border-radius: 2px;
+  float: right;
+  margin-right: 10px;
+  &:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}

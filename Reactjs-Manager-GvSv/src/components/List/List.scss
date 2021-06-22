@@ -1,0 +1,48 @@
+.tableList {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  thead {
+    background-color: #ffffff;
+  }
+  td,
+  th {
+    border: 1px solid rgb(185, 182, 182);
+    padding: 8px;
+    color: black;
+  }
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  .rowNameTeacher:hover {
+    background-color: rgb(20, 173, 109);
+    cursor: pointer;
+    color: #ffffff;
+  }
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+  }
+  tr {
+    cursor: pointer;
+  }
+}
+
+.addnew {
+  margin-right: 10px;
+  border: 0;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+
+  &:hover {
+    background-color: rgb(20, 173, 109);
+    color: white;
+  }
+}
